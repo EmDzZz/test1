@@ -1,6 +1,10 @@
 button {
     align-content: center;
     background-color: darkgreen;
-    color: green;
+    color: greenyellow;
+}
+button:hover {
+    background-color: greenyellow;
+    color: darkgreen;
 }
 
