@@ -1,8 +1,8 @@
-img.first {
+/*img.first {
     content:url(../images/dog1.jpg);
     width: 100px;
     height: 100px;
-}
+}*/
 img.first:hover {
     content:url(../images/dog2.jpg);
     width: 100px;
@@ -11,9 +11,9 @@ img.first:hover {
 img.second:hover {
     transform: rotate3d(3, 1, 1, 45deg);
 }
-img.third {
+/*img.third {
     content:url(../images/dog1.jpg);
-}
+}*/
 img.third:hover {
     position: relative;
     animation-name: example;
