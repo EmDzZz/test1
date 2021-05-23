@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Theme Made By www.w3schools.com - No Copyright -->
   <title>test</title>
   <link href="css/css1.css" rel="stylesheet" type="text/css">
   <meta charset="utf-8">
@@ -11,24 +10,23 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body onscroll="myFunction()">
 
-<!-- Navbar -->
 <nav class="navbar navbar-default">
-  <div class="container">
+  <div class="container" id="myNavbar">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Me</a>
+      <a href="http://emilssssssss.eu.pythonanywhere.com/" class="navbar-brand">Me</a>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
+    <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="http://emilssssssss.eu.pythonanywhere.com/?">WHO</a></li>
-        <li><a href="http://emilssssssss.eu.pythonanywhere.com/?">WHAT</a></li>
-        <li><a href="http://emilssssssss.eu.pythonanywhere.com/?">WHERE</a></li>
+          <li><a class="pirmais" onclick="who()" >WHO</a></li>
+        <li><a onclick="what()">WHAT</a></li>
+        <li><a onclick="trik()">TRIKI</a></li>
       </ul>
     </div>
   </div>
@@ -65,11 +63,10 @@
     </div>
   </div>
 </div>
-
+  <script src="./js/code.js"></script>
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">
   <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
 </footer>
-
 </body>
 </html>

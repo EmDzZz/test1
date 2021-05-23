@@ -3,6 +3,11 @@
     width: 100px;
     height: 100px;
 }*/
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
 img.first:hover {
     content:url(../images/dog2.jpg);
     width: 100px;
