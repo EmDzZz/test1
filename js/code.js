@@ -3,8 +3,9 @@
     function myFunction() {
       console.log(window.pageYOffset);
       if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-      } else {
+        navbar.classList.add("sticky");
+      } 
+      else{
         navbar.classList.remove("sticky");
       }
     }
@@ -16,7 +17,7 @@
         var y=window.pageYOffset;
         window.scrollBy(0, 450 - y);
     }
-    function trik(){
+    function triki(){
         var y=window.pageYOffset;
         window.scrollBy(0, 700 - y);
     }
