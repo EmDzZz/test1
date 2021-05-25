@@ -27,6 +27,7 @@
           <li><a class="pirmais" onclick="who()" >WHO</a></li>
         <li><a onclick="what()">WHAT</a></li>
         <li><a onclick="triki()">TRIKI</a></li>
+        <li><a onclick="html()">DINAMISKS HTML</a></li>
       </ul>
     </div>
   </div>
@@ -62,6 +63,13 @@
       <img class="third" src="images/dog1.jpg">
     </div>
   </div>
+</div>
+<div class="container-fluid bg-3 text-center" id="dinamisks">
+    <h3 class="margin">Dinamisks HTML</h3>
+    <form>
+        <p>Izvēlies laukuma izmēru <input name="cik" value="2" type="number" min="2" max="6" step="2"></p>
+        <input type="button" onclick="laukums(cik.value);" value="Ģenerēt laukumu">
+    </form>
 </div>
   <script src="./js/code.js"></script>
 <!-- Footer -->
