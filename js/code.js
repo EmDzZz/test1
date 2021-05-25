@@ -21,3 +21,12 @@
         var y=window.pageYOffset;
         window.scrollBy(0, 700 - y);
     }
+    function html(){
+        var y=window.pageYOffset;
+        window.scrollBy(0, 900 - y);
+    }    
+    function laukums(n){
+        let p=document.createElement("P");
+        p.innerHTML="Te būs laukums ar " + n + " lauciņiem";
+        document.getElementById("dinamisks").appendChild(p);
+    }
