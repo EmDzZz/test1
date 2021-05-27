@@ -10,7 +10,7 @@
     }
     function who(){
         var y=window.pageYOffset;
-        window.scrollBy(0, 100 - y);
+        window.scrollBy(0, 80 - y);
     }
     function what(){
         var y=window.pageYOffset;
